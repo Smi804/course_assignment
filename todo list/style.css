@@ -1,0 +1,44 @@
+body{
+    align-items: center;
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+#heading{
+    text-align: center;
+    font-weight: bold;   
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+#inputDiv{
+    position: absolute;
+    margin: 20px auto;
+    align-items: center;
+    left: 545px;
+}
+ul{
+ position:relative;
+
+}
+ul li{
+    list-style: none;
+   /*  background-color:rgb(6, 177, 6); */
+    margin: 10px; 
+    color:white;
+    padding-left: 10px;
+    width: 40%;
+
+}
+button{
+    background-color: rgb(6, 177, 6);
+    padding: 5px;
+    color: white;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(6, 107, 6);
+    cursor: pointer;
+}
